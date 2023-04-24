@@ -17,8 +17,23 @@
       padding: 10px;
       line-height: 70px;
     }
-    .row {
+    /* nav div.row {
       text-align: center;
+    } */
+    .card {
+      border: 1px solid #efefef;
+      padding: 5px;
+      font-size: 16px;
+    }
+    .card-header h4{
+      border-bottom: 1px solid #eee;
+      padding: 10px;
+    }
+    .card-body li {
+      padding: 5px;
+    }
+    .card-body li:not(.not) {
+      border-bottom: 1px dashed #eee;
     }
   </style>
 
@@ -40,20 +55,56 @@
 
     <section class="container mt-20">
       <div class="row">
-        <div class="col-s-12">
+        <div class="col-s-12 col-md-12 col-xl-12">
           <img class="img-responsive" src="./image/5.jpg" alt="" srcset="" />
         </div>
       </div>
-    </section>
-    <section class="cntainer">
       <div class="row">
         <aside class="col-s-12 col-md-4 col-xl-4">
-          <div class="card">
-            <div class="card-header"></div>
-            <div class="card-body"></div>
+          <div class="card box-shadow mb-20">
+            <div class="card-header"><h4>جدید ترین مقالات</h4></div>
+            <div class="card-body">
+              <ul>
+                <li><a href="">آموزش طراحی وب</a></li>
+                <li><a href="">دوره ی لینوکس</a></li>
+                <li><a href="">طراحی واکنش گرا</a></li>
+                <li class="not"><a href="">انواع زبان برنامه نویسی</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card box-shadow mb-20">
+            <div class="card-header"><h4>جدید ترین مقالات</h4></div>
+            <div class="card-body">
+              <ul>
+                <li><a href="">آموزش طراحی وب</a></li>
+                <li><a href="">دوره ی لینوکس</a></li>
+                <li><a href="">طراحی واکنش گرا</a></li>
+                <li class="not"><a href="">انواع زبان برنامه نویسی</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card box-shadow mb-20">
+            <div class="card-header"><h4>جدید ترین مقالات</h4></div>
+            <div class="card-body">
+              <ul>
+                <li><a href="">آموزش طراحی وب</a></li>
+                <li><a href="">دوره ی لینوکس</a></li>
+                <li><a href="">طراحی واکنش گرا</a></li>
+                <li class="not"><a href="">انواع زبان برنامه نویسی</a></li>
+              </ul>
+            </div>
           </div>
         </aside>
-        <article class="col-s-12 col-md-8 col-xl-8"></article>
+        <article class="col-s-12 col-md-8 col-xl-8">
+          <div class="col-s-12 col-md-4 col-xl-4">
+            <div class="card box-shadow">
+              <div class="card-header">
+                <img src="" alt="" srcset="">
+              </div>
+              <div class="card-body"></div>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
   </body>
