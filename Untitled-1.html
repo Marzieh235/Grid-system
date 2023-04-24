@@ -29,10 +29,17 @@
     .card-body li {
       padding: 5px;
     }
-    .card-body li:not(.not) {
+    aside .card-body li:not(.not) {
       border-bottom: 1px dashed #eee;
     }
-
+    .card-footer h4 {
+      color: whitesmoke;
+      border: 0;
+      border-bottom: 1px solid white;
+    }
+    footer li a {
+      color: yellow;
+    }
   </style>
 
   <body>
@@ -52,15 +59,15 @@
       </div>
     </nav>
     <!-- main -->
-    <section class="container mt-20">
+    <section class="container-fluid">
       <!-- slider -->
       <div class="row">
-        <div class="col-s-12 col-md-12 col-xl-12">
-          <img class="img-responsive" src="./image/5.jpg" alt="" srcset="" />
+        <div class="col-s-12 col-md-12 col-xl-12 p-0">
+          <img class="img-responsive" src="./image/8.jpg" alt="" srcset="" />
         </div>
       </div>
       <!-- main content -->
-      <div class="row">
+      <div class="row mt-20">
         <!-- side bar -->
         <aside class="col-s-12 col-md-4 col-xl-4">
           <div class="card box-shadow mb-20">
@@ -217,9 +224,11 @@
       </div>
     </section>
     <!-- section of team work -->
-    <div class="container team-working">
+    <div class="container">
       <div class="row">
-        <div class="col-s-12 col-md-10 col-xl-10 col-md-offset-1 col-xl-offset-1">
+        <div
+          class="col-s-12 col-md-10 col-xl-10 col-md-offset-1 col-xl-offset-1"
+        >
           <div class="col-s-12 col-md-4 col-xl-4 mb-20 mt-20">
             <div class="card">
               <div class="card-header">
@@ -235,21 +244,7 @@
               </div>
             </div>
           </div>
-           <div class="col-s-12 col-md-4 col-xl-4 mb-20 mt-20">
-            <div class="card">
-              <div class="card-header">
-                <img
-                  class="img-responsive"
-                  src="./image/7.jpg"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div class="card-body">
-                <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-            </div>
-          </div> <div class="col-s-12 col-md-4 col-xl-4 mb-20 mt-20">
+          <div class="col-s-12 col-md-4 col-xl-4 mb-20 mt-20">
             <div class="card">
               <div class="card-header">
                 <img
@@ -264,13 +259,76 @@
               </div>
             </div>
           </div>
-          
-          
-         
+          <div class="col-s-12 col-md-4 col-xl-4 mb-20 mt-20">
+            <div class="card">
+              <div class="card-header">
+                <img
+                  class="img-responsive"
+                  src="./image/7.jpg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    
+    <!-- footer -->
+
+    <footer class="container-fluid blue-color">
+      <div class="row mt-20">
+        <!-- <div class="container"></div> -->
+        <div class="col-s-12 col-md-4 col-xl-4">
+          <div class="card-footer mt-20">
+            <div class="card-header">
+              <h4>دسترسی سریع</h4>
+            </div>
+            <div class="card-body">
+              <ul class="mt-10">
+                <li><a href="">صفحه اصلی</a></li>
+                <li><a href="">دوره های آموزشی</a></li>
+                <li><a href="">تماس با ما</a></li>
+                <li><a href="">درباره ما</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-s-12 col-md-4 col-xl-4">
+          <div class="card-footer mt-20">
+            <div class="card-header">
+              <h4>دسترسی سریع</h4>
+            </div>
+            <div class="card-body">
+              <ul class="mt-10">
+                <li><a href="">صفحه اصلی</a></li>
+                <li><a href="">دوره های آموزشی</a></li>
+                <li><a href="">تماس با ما</a></li>
+                <li><a href="">درباره ما</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-s-12 col-md-4 col-xl-4">
+          <div class="card-footer mt-20">
+            <div class="card-header">
+              <h4>دسترسی سریع</h4>
+            </div>
+            <div class="card-body">
+              <ul class="mt-10">
+                <li><a href="">صفحه اصلی</a></li>
+                <li><a href="">دوره های آموزشی</a></li>
+                <li><a href="">تماس با ما</a></li>
+                <li><a href="">درباره ما</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
